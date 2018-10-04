@@ -9,7 +9,7 @@
   #byte_range { margin-top: 5px; }
 </style>
 
-<!--<input type="file" id="files" name="file" />-->
+<input type="file" id="files" name="file" />
 Read bytes: 
 <span class="readBytesButtons">
   <button data-startbyte="0" data-endbyte="4">1-5</button>
@@ -23,8 +23,7 @@ Read bytes:
 <script>
   function readBlob(opt_startByte, opt_stopByte) {
 
-   // var files = document.getElementById('files').files;//
-   var files = test.txt;
+   var files = document.getElementById('files').files;
     if (!files.length) {
       alert('Please select a file!');
       return;
