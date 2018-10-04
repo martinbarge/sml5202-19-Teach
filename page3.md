@@ -31,7 +31,7 @@ function loadFile(filePath) {
 }
 
 var myStuff = loadFile("test.txt");
-document.getElementByID("show").InnerHTML=myStuff;
+document.getElementById("demo").innerHTML = myStuff; 
 // alert(myStuff);
 </script>
-<div id="show"></div>
+<div id="demo"></div>
