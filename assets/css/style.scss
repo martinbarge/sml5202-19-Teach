@@ -8,3 +8,8 @@ $header-bg-color-secondary: #104e2f !default;
 
 
 @import "{{ site.theme }}";
+
+.page-header {
+	padding: 3rem 6rem;
+}
+
