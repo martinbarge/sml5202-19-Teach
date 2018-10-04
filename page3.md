@@ -31,9 +31,10 @@ function loadFile(filePath) {
 }
 
 var myStuff = loadFile("test.txt");
+alert(myStuff);
 document.getElementById("demo").innerHTML = myStuff; 
 document.getElementById("demo1").value = myStuff; 
-alert(myStuff);
+
 </script>
 <div id="demo">&nbsp;</div>
 <textarea id="demo1">...</textarea> 
