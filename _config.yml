@@ -2,6 +2,6 @@ theme: jekyll-theme-cayman
 title: The title of your site
 description: A short description of your site's purpose
 github:
-    page1: page1.html
-    page2: page2.html
+  page1: page1.html
+  page2: page2.html
     
