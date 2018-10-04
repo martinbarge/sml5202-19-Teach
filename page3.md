@@ -1,5 +1,7 @@
 <h1><i>Testing:</i> &nbsp;  function loadFile()</h1>
 <p><i>Reading from&nbsp;</i> <tt><b>file/hello.txt</b></tt></p>
+<div id="demo">&nbsp;</div>
+<textarea id="demo1">...</textarea> 
 <script>
 
 // Synchronously read a text file from the web server with Ajax
@@ -36,5 +38,4 @@ document.getElementById("demo").innerHTML = myStuff;
 document.getElementById("demo1").value = myStuff; 
 
 </script>
-<div id="demo">&nbsp;</div>
-<textarea id="demo1">...</textarea> 
+
