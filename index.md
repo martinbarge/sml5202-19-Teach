@@ -9,7 +9,7 @@
   <ol>
     <li><code>&lt;strong&gt; &lt;/strong&gt;</code> for creating <strong>bold text</strong></li>
     <li><code>&lt;em&gt; &lt;/em&gt;</code> for creating <em>italic text</em></li>
-     <li><code>&lt;u&gt; &lt;/u&gt;</code> for creating <u>underlined text</u></li>
+     <li><code>&lt;u&gt; &lt;/u&gt;</code> for creating <u>underlined text</u>. It is generally used for indicating errors (e.g. <u>rong </u>spelling)</li>
     </ol>
 
 
