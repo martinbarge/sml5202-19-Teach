@@ -5,6 +5,11 @@
 
 <h1>Section 2:</h1> 
 <h2>Some more HTML</h2>
-<p>
+<p>Other useful formatting tags are:
+  <ol>
+    <li><code>&lt;strong&gt; &lt;/strong&gt;</code> for creating <strong>bold text</strong></li>
+    <li><code>&lt;em&gt; &lt;/em&gt;</code> for creating <em>italic text</em></li>
+     <li><code>&lt;u&gt; &lt;/u&gt;</code> for creating <u>underlined text</u></li>
+    </ol>
 
 
