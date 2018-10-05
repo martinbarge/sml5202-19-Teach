@@ -49,7 +49,20 @@
 <p>Here is the result: <a href="https://www.w3schools.com/html/html_basic.asp">visit the W3Schools HTML tutorial</a> 
 
 <h3>Relative Links</h3>
-<p>Relative links are used to link to pages or assets (e.g. images and files) that within your own website. We won't cover this yet, as it can be slightly complicated.</p> 
+<p>Relative links are used to link to pages or assets (e.g. images and files) that are within the file structure your own website. We won't cover this yet, as it can be slightly complicated.</p> 
 <p>So that's a brief introduction to links.</p>
 <hr>
 
+<h1>Section 5: Homework</h1> 
+<h3>For homework, I'd like you to edit your GitHub page</h3>
+    <p>Make three sections using the H1 heading style, as follows:</p>
+  <ol>
+    <li>Section 1: Write a paragraph describing yourself (e.g. where you come from, what you are studying, how long you have lived in London. And include a link to your QMplus Hub Page for SML209.</li>
+    <li>Section 2: Write a bullet list of three things you have to do.</li>
+    <li>Section 3: Write a numbered list of three of your favourite things.</li>
+    </ol>
+<p>Finally put a horizontal line between each section, like this:</p>
+<hr>
+<p>When you have finished, post the link to your github website on your QMplus Hub Journal.</p>
+<p>Good luck!</p>
+<hr>
