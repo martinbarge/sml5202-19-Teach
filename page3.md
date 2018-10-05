@@ -1,5 +1,5 @@
 <h1><i>Testing:</i> &nbsp;  function loadFile()</h1>
-<p><i>Reading from&nbsp;</i> <tt><b>file/hello.txt</b></tt></p>
+<p><i>Reading from&nbsp;</i> <tt><b>test.txt</b></tt></p>
 <div id="demo">&nbsp;</div>
 <script>
 
