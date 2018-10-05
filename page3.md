@@ -29,16 +29,19 @@ function loadFile(filePath) {
   if (xmlhttp.status==200) {
     result = xmlhttp.responseText;
   }
+  
+  // By lines
+    var lines = myStuff.split('\n');
+    for(var line = 0; line < lines.length; line++){
+      console.log(lines[line]);
+    }
+    
   return result;
 }
 
 var myStuff = loadFile("test.txt");
 
-// By lines
-    var lines = myStuff.split('\n');
-    for(var line = 0; line < lines.length; line++){
-      console.log(lines[line]);
-    }
+
 
 document.getElementById("demo").innerHTML = myStuff; 
 
