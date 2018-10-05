@@ -1,27 +1,29 @@
-<div id="demo">&nbsp;</div>
-<script>
-
-handleFiles(input) {
-   var files = "test.txt";
-
-    const file = input.target.files[0];
-    const reader = new FileReader();
-
-    reader.onload = (event) => {
-        const file = event.target.result;
-        const allLines = file.split(/\r\n|\n/);
-        // Reading line by line
-        allLines.forEach((line) => {
-            console.log(line);
-            document.getElementById("demo").innerHTML = line; 
+ <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {            
+                $.ajax({`enter code here`
+                    url: "test.txt",
+                    dataType: "text",
+                    success: function (data) {                 
+                            var text = $('#newCheckText').val();
+                            var str = data;
+                            var str_array = str.split('\n');
+                            for (var i = 0; i < str_array.length; i++) {
+                                // Trim the excess whitespace.
+                                str_array[i] = str_array[i].replace(/^\s*/, "").replace(/\s*$/, "");
+                                // Add additional code here, such as:
+                                alert(str_array[i]);
+                                $('#checkboxes').append('<input type="checkbox"  class="checkBoxClass" /> ' + str_array[i] + '<br />');
+                            }
+                    }                   
+                });
+                $("#ckbCheckAll").click(function () {
+                    $(".checkBoxClass").prop('checked', $(this).prop('checked'));
+                });
         });
-    };
-
-    reader.onerror = (event) => {
-        alert(event.target.error.name);
-    };
-
-    reader.readAsText(file);
-}
-
-</script>
+    </script>
+</head>
+<body>
+    <div id="checkboxes">
+        <input type="checkbox" id="ckbCheckAll" class="checkBoxClass"/> Select All<br />        
+    </div>
