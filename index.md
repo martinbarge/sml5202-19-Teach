@@ -43,7 +43,7 @@
 <p>An absolute link uses the full URL address of the page you want to link to. This is necessary if you are linking to a page outside of your own website.</p><p> For example: suppose you want to link to the W3Schools HTML Tutorial. Here is the web address: <code> https://www.w3schools.com/html/html_basic.asp</code>. And I want the link text to read: <code>visit the W3Schools HTML tutorial</code></p>
 <p></p>
 <p>Here is the code for inserting this link:</p>
-<code>&lt;a href="https://www.w3schools.com/html/html_basic.asp"&gt;visit the W3Schools HTML tutorial&lt;/a&gt; </code>
+<code>&lt;a href="https://www.w3schools.com/html/html_basic.asp"&gt; visit the W3Schools HTML tutorial&lt;/a&gt; </code>
 <p>In the above code, you put the URL of the site inside double-inverted commas after href=</p>
 <p>You then write the words for the link between the &gt; and the &lt;/a&gt; tags</p>
 <p>Here is the result: <a href="https://www.w3schools.com/html/html_basic.asp">visit the W3Schools HTML tutorial</a> 
