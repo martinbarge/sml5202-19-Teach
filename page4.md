@@ -2,6 +2,7 @@
 <script>
 
 handleFiles(input) {
+   var files = "test.txt";
 
     const file = input.target.files[0];
     const reader = new FileReader();
@@ -20,7 +21,7 @@ handleFiles(input) {
         alert(event.target.error.name);
     };
 
-    reader.readAsText("test.txt");
+    reader.readAsText(file);
 }
 
 </script>
