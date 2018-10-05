@@ -42,5 +42,12 @@
 <h3>Absolute Links</h3>
 <p>An absolute link uses the full URL address of the page you want to link to. This is necessary if you are linking to a page outside of your own website.</p><p> For example: I want to link to the W3Schools HTML Tutorial. Here is the address: <span style="color:green;" https://www.w3schools.com/html/html_basic.asp</span></p>
 <p>Here is the code for inserting this link:</p>
+<code>&lt;a href="https://www.w3schools.com/html/html_basic.asp"&gt; visit the W3Schools HTML tutorial&lt;/a&gt; </code>
+<p>In the above code, you put the URL of the site inside double-inverted commas after href=</p>
+<p>You then write the words for the link between the &gt; and the &lt;/a&gt; tags</p>
 
+<h3>Relative Links</h3>
+<p>Relative links are used to link to pages or assets (e.g. images and files) that within your own website. We won't cover this yet, as it can be slightly complicated.</p> 
+<p>So that's a brief introduction to links.</p>
+<hr>
 
