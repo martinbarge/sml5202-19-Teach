@@ -1,7 +1,6 @@
 <h1><i>Testing:</i> &nbsp;  function loadFile()</h1>
 <p><i>Reading from&nbsp;</i> <tt><b>test.txt</b></tt></p>
 <div id="demo">&nbsp;</div>
-<div id="demo2">&nbsp;</div>
 <script>
 
 // Synchronously read a text file from the web server with Ajax
@@ -28,14 +27,7 @@ function loadFile(filePath) {
   xmlhttp.send();
   if (xmlhttp.status==200) {
     result = xmlhttp.responseText;
-  }
-  
-  // By lines
-    var lines = myStuff.split('\n');
-    for(var line = 0; line < lines.length; line++){
-      console.log(lines[line]);
-    }
-    
+  }    
   return result;
 }
 
@@ -45,7 +37,6 @@ var myStuff = loadFile("test.txt");
 
 document.getElementById("demo").innerHTML = myStuff; 
 
-document.getElementById("demo2").innerHTML = lines[line]; 
 
 </script>
 
