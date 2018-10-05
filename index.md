@@ -57,9 +57,9 @@
 <h3>For homework, I'd like you to edit your GitHub page</h3>
     <p>Make three sections using the H1 heading style, as follows:</p>
   <ol>
-    <li>Section 1: Write a paragraph describing yourself (e.g. where you come from, what you are studying, how long you have lived in London. And include a link to your QMplus Hub Page for SML209.</li>
-    <li>Section 2: Write a bullet list of three things you have to do.</li>
-    <li>Section 3: Write a numbered list of three of your favourite things.</li>
+  <li><strong>Section 1:</strong> Write a paragraph describing yourself (e.g. where you come from, what you are studying, how long you have lived in London. And include a link to your QMplus Hub Page for SML209 (the text for the link should read: 'Visit my QMplus Hub page'.</li>
+    <li><strong>Section 2:</strong> Write a bullet list of three things you have to do.</li>
+    <li><strong>Section 3:</strong> Write a numbered list of three of your favourite things.</li>
     </ol>
 <p>Finally put a horizontal line between each section, like this:</p>
 <hr>
