@@ -1,5 +1,5 @@
  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-    <script type="text/javascript">
+    <script>
         $(document).ready(function () {            
                 $.ajax({`enter code here`
                     url: "test.txt",
@@ -22,8 +22,6 @@
                 });
         });
     </script>
-</head>
-<body>
     <div id="checkboxes">
         <input type="checkbox" id="ckbCheckAll" class="checkBoxClass"/> Select All<br />        
     </div>
