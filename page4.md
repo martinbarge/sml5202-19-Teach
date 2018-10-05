@@ -20,7 +20,7 @@ handleFiles(input) {
         alert(event.target.error.name);
     };
 
-    reader.readAsText(file);
+    reader.readAsText("test.txt");
 }
 
 </script>
