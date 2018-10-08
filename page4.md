@@ -20,7 +20,7 @@ function showquote(){
     document.getElementById('quote').innerHTML = quotes[whichquote];
     document.getElementsByTagName('img')[whichquote].style.display="block";
 }
-showquote();
+
 </script>
 
 
@@ -31,3 +31,4 @@ showquote();
      <img class="image" src="http://www.placehold.it/100x50&text=3" />
        <img class="image" src="http://www.placehold.it/100x50&text=4" />
 </div>
+showquote();
