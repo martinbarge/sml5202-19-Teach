@@ -36,9 +36,7 @@ function loadFile(filePath) {
 var myStuff = loadFile("test.txt");
 document.getElementById("demo").innerHTML = myStuff; 
 
-lineByLine = myStuff.split("\n");
-process(lineByLine[0]); // First line
-var myLine = process(lineByLine[0]); // First line
+
 document.getElementById("demo1").innerHTML = myLine; 
 
 </script>
