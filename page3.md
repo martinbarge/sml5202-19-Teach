@@ -1,6 +1,8 @@
 <h1><i>Testing:</i> &nbsp;  function loadFile()</h1>
 <p><i>Reading from&nbsp;</i> <tt><b>test.txt</b></tt></p>
 <div id="demo">&nbsp;</div>
+<div id="demo1">&nbsp;</div>
+
 <script>
 
 // Synchronously read a text file from the web server with Ajax
@@ -32,11 +34,12 @@ function loadFile(filePath) {
 }
 
 var myStuff = loadFile("test.txt");
-
-
-
 document.getElementById("demo").innerHTML = myStuff; 
 
+lineByLine = myStuff.split("\n");
+process(lineByLine[0]); // First line
+var myLine = process(lineByLine[0]); // First line
+document.getElementById("demo1").innerHTML = myLine; 
 
 </script>
 
