@@ -34,9 +34,9 @@
 <p>GitHub pages use the UTF-8 Character set. This means you can type accented letters directly into your page and it will display correctly</p>
 <p>Examples:</p>
 <ul>
-    <li>jabłko</li>
-    <li>Доброе утро</li>
-    <li>你好</li>
+    <li lang="pl">jabłko</li>
+    <li lang="ru">Доброе утро</li>
+    <li lang="zh-Hans">你好</li>
 </ul>
 <hr>
 
