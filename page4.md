@@ -1,34 +1,42 @@
-<p id="demo">Here</p>
+<h1>More text layouts</h1>
+<h2>Description lists</h2>
+<p>Description lists are good for giving definitions</p>
+<dl>
+  <dt>soliloquy</dt>
+  <dd>In drama, where a character speaks to themselves, representing their inner thoughts or feelings and in the process relaying them to the audience (but not to other characters.)</dd>
+  <dt>monologue</dt>
+  <dd>In drama, where a character speaks their thoughts out loud to share them with the audience and any other characters present.</dd>
+  <dt>aside</dt>
+  <dd>In drama, where a character shares a comment only with the audience for humorous or dramatic effect. This is usually a feeling, thought, or piece of additional background information.</dd>
+</dl>
 
-<style>
-    .image {
-    display: none;
-}
-    </style>
-<script>
-var quotes = [
-    "Saab",
-    "Volvo",
-    "BMW",
-    "Horse"
-]; 
-    
-var q = quotes.length;
-var whichquote=Math.round(Math.random()*(q-1));
+<hr>
 
-function showquote(){
-    document.getElementById('quote').innerHTML = quotes[whichquote];
-    document.getElementsByTagName('img')[whichquote].style.display="block";
-}
+<h2>Block quotes</h2>
+<p>Block quotes are good for quoting from sources</p>
 
-</script>
+<blockquote cite="https://en.wikipedia.org/wiki/To_be,_or_not_to_be">
+  <p>To be, or not to be, that is the question:<br>
+      Whether 'tis nobler in the mind to suffer<br>
+      The slings and arrows of outrageous fortune,<br>
+      Or to take Arms against a Sea of troubles,<br>
+      And by opposing end them: to die, to sleep<br>
+      No more; and by a sleep, to say we end.
+    </p>
+</blockquote>
+<hr>
+<h2>Superscript</h2>
+<p>Useful for dates</p>
+<p>My birthday is on the 25<sup>th</sup> of May 2001.</p>
+<hr>
 
+<h2>Accented characters</h2>
+<p>GitHub pages use the UTF-8 Character set. This means you can type accented letters directly into your page and it will display correctly</p>
+<p>Examples:</p>
+<ul>
+    <li>jabłko</li>
+    <li>Доброе утро</li>
+    <li>你好</li>
+</ul>
+<hr>
 
-<div id="quote"></div>
-<div>
-    <img class="image" src="http://www.placehold.it/100x50&text=1" />
-     <img class="image" src="http://www.placehold.it/100x50&text=2" />
-     <img class="image" src="http://www.placehold.it/100x50&text=3" />
-       <img class="image" src="http://www.placehold.it/100x50&text=4" />
-</div>
-showquote();
