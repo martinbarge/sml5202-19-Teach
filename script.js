@@ -1,22 +1,26 @@
-var quotes=[
-'A bird in the bush is worth two in the hand.', 
+var idioms = [
+'Once in a blue moon = very rarely.', 
 
-'Make hay while the sun shines.', 
+'Tickled pink = to be extremely pleased.', 
 
-'Don\'t count your chickens before they hatch.'
+'Caught red-handed = to catch someone in the act of doing something.',
+    
+ 'White lie = a small lie that is told to be polite or avoid hurting someone’s feelings.'
 ];
 
-var meanings=[
-'It is better to hold onto something one has than to risk losing it by trying to get something better.', 
+var examples = [
+'Example: <i>Once in a blue moon you will see that mean professor smile.</i>', 
 
-'Take advantage of the chance to do something while conditions are good.', 
+'Example: <i>Your grandma was tickled pink that you called on her birthday!</i>.', 
 
-'Do not make plans that depend on something good happening before you know that it has actually happened.'
+'Example: <i>He was caught red-handed while stealing those biscuits.</i>.',
+    
+'Example: <i>I didn’t like her dress, but I told a white lie because I didn’t want to offend her.</i>'
 ];
 
 function loadQuote() {
-    var quoteNo = Math.floor(Math.random() * (quotes.length));
+    var idiomNo = Math.floor(Math.random() * (idioms.length));
     //alert(quotes[quoteNo]);
-    document.getElementById("quote").innerHTML = "<dt>" + quotes[quoteNo] + "</dt>" + "<dd>" + meanings[quoteNo] + "</dd>"
+    document.getElementById("quote").innerHTML = "<dt>" + idioms[idiomNo] + "</dt>" + "<dd>" + examples[idiomNo] + "</dd>"
 }
 loadQuote();
