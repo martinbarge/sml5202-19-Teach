@@ -13,6 +13,7 @@
 <hr>
 <h2>Tables</h2>
 <p>Tables are an orderly way to present information.</p>
+<p>Here is an example of a simple verb table:</p>
 <table>
   <tr><th>Infinitive</th><th>Past simple</th><th>Past participle</th></tr>
   <tr>
