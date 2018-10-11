@@ -5,7 +5,7 @@ var idioms = [
 
 'Caught red-handed = to catch someone in the act of doing something.',
     
- 'White lie = a small lie that is told to be polite or avoid hurting someone’s feelings.'
+'White lie = a small lie that is told to be polite or avoid hurting someone’s feelings.'
 ];
 
 var examples = [
