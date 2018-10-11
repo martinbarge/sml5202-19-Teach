@@ -31,11 +31,12 @@
 <hr>
 
 <h2>Block quotes</h2>
-<p>Using the blockquote tag places quoted text in a pleasingly formatted way</p>
+<p>Using the blockquote tag places quoted text in a pleasingly formatted way. <b>Note:</b> If your quote is in verse form, you will need to use the &lt;br&gt; tag to break the lines.</p>
+<p>Here is an example of a verse of poetry in a block quote:</p>
 
 <blockquote cite="https://en.wikipedia.org/wiki/To_be,_or_not_to_be">
   <p>
-    To be, or not to be, that is the question:
+    To be, or not to be, that is the question:<br>
     Whether 'tis nobler in the mind to suffer<br>
     The slings and arrows of outrageous fortune,<br>
     Or to take Arms against a Sea of troubles,<br>
