@@ -14,7 +14,7 @@
 <h2>Tables</h2>
 <p>Tables are an orderly way to present information.</p>
 <table>
-  <th><td>Infinitive</td><td>Past simple</td><td>Past participle</td></th>
+  <tr><th>Infinitive</th><th>Past simple</th><th>Past participle</th></tr>
   <tr>
     <td>to go</td><td>went</td><td>gone/been</td>
   </tr>
