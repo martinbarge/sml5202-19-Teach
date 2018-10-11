@@ -1,5 +1,5 @@
-<h1>More text layouts</h1>
-<h2>Description lists</h2>
+<h1>HTML Part 2: More text layouts</h1>
+<h2>1. Description lists</h2>
 <p>Description lists are good for giving definitions</p>
 <dl>
   <dt>soliloquy</dt>
@@ -11,7 +11,7 @@
 </dl>
 
 <hr>
-<h2>Tables</h2>
+<h2>2. Tables</h2>
 <p>Tables are an orderly way to present information.</p>
 <p>Here is an example of a simple verb table:</p>
 <table>
@@ -30,7 +30,7 @@
 
 <hr>
 
-<h2>Block quotes</h2>
+<h2>3. Block quotes</h2>
 <p>Using the blockquote tag places quoted text in a pleasingly formatted way. <b>Note:</b> If your quote is in verse form, you will need to use the &lt;br&gt; tag to break the lines.</p>
 <p>Here is an example of a verse of poetry in a block quote:</p>
 
@@ -50,12 +50,13 @@
   <p>-Robert Browning Hamilton</p>
 </blockquote>
 <hr>
-<h2>Superscript</h2>
+
+<h2>4. Superscript</h2>
 <p>Useful for dates</p>
 <p>My birthday is on the 25<sup>th</sup> of May 2001.</p>
 <hr>
 
-<h2>Accented characters</h2>
+<h2>5. Accented and Non-Latin Characters</h2>
 <p>GitHub pages use the UTF-8 Character set. This means you can type accented letters directly into your page and it will display correctly</p>
 <p>Examples:</p>
 <ul>
@@ -63,5 +64,9 @@
     <li lang="ru">Доброе утро</li>
     <li lang="zh-Hans">你好</li>
 </ul>
+<p>However, if you recall, in order for screen reading software to pronounce the words correctly, you need to add the &lt;lang=""&gt; attribute to the tag.<br>
+For example: In the list above, the tag for the Polish word is &lt;li lang="pl"&gt;>. The language code for the Russian word is "ru" and for the Chinese word "zh-Hans". A full listing of the language codes is provided on the <a href="https://www.w3schools.com/tags/ref_language_codes.asp">W3Schools Website</a>.
+</p>
+
 <hr>
 
