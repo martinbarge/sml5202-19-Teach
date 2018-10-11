@@ -65,7 +65,7 @@
     <li lang="zh-Hans">你好</li>
 </ul>
 <p>However, if you recall, in order for screen reading software to pronounce the words correctly, you need to add the &lt;lang=""&gt; attribute to the tag.<br>
-For example: In the list above, the tag for the Polish word is &lt;li lang="pl"&gt;>. The language code for the Russian word is "ru" and for the Chinese word "zh-Hans". A full listing of the language codes is provided on the <a href="https://www.w3schools.com/tags/ref_language_codes.asp">W3Schools Website</a>.
+For example: In the list above, the tag for the Polish word is &lt;li lang="pl"&gt;. The language code for the Russian word is "ru" and for the Chinese word "zh-Hans". A full listing of the language codes is provided on the <a href="https://www.w3schools.com/tags/ref_language_codes.asp">W3Schools Website</a>.
 </p>
 
 <hr>
