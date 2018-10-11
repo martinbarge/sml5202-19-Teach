@@ -35,6 +35,7 @@
 <p>Here is an example of a verse of poetry in a block quote:</p>
 
 <blockquote cite="https://en.wikipedia.org/wiki/To_be,_or_not_to_be">
+  <p>Along the Road</p>
   <p>
     &ldquo;I walked a mile with Pleasure;<br>
     She chatted all the way;<br>
@@ -46,6 +47,7 @@
     But, oh! The things I learned from her,<br>
     When Sorrow walked with me.&rdquo;
     </p>
+  <p>-Robert Browning Hamilton</p>
 </blockquote>
 <hr>
 <h2>Superscript</h2>
