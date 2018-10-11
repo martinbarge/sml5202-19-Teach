@@ -11,6 +11,23 @@
 </dl>
 
 <hr>
+<h2>Tables</h2>
+<p>Tables are an orderly way to present information.</p>
+<table>
+  <th><td>Infinitive</td><td>Past simple</td><td>Past participle</td></th>
+  <tr>
+    <td>to go</td><td>went</td><td>gone/been</td>
+  </tr>
+   <tr>
+    <td>to have</td><td>had</td><td>had</td>
+  </tr>
+  <tr>
+    <td>to come</td><td>came</td><td>come</td>
+  </tr>
+  </table>
+  
+
+<hr>
 
 <h2>Block quotes</h2>
 <p>Block quotes are good for quoting from sources</p>
