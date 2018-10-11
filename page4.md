@@ -31,15 +31,16 @@
 <hr>
 
 <h2>Block quotes</h2>
-<p>Block quotes are good for quoting from sources</p>
+<p>Using the blockquote tag places quoted text in a pleasingly formatted way</p>
 
 <blockquote cite="https://en.wikipedia.org/wiki/To_be,_or_not_to_be">
-  <p>To be, or not to be, that is the question:<br>
-      Whether 'tis nobler in the mind to suffer<br>
-      The slings and arrows of outrageous fortune,<br>
-      Or to take Arms against a Sea of troubles,<br>
-      And by opposing end them: to die, to sleep<br>
-      No more; and by a sleep, to say we end.
+  <p>
+    To be, or not to be, that is the question:
+    Whether 'tis nobler in the mind to suffer<br>
+    The slings and arrows of outrageous fortune,<br>
+    Or to take Arms against a Sea of troubles,<br>
+    And by opposing end them: to die, to sleep<br>
+    No more; and by a sleep, to say we end.
     </p>
 </blockquote>
 <hr>
