@@ -36,12 +36,15 @@
 
 <blockquote cite="https://en.wikipedia.org/wiki/To_be,_or_not_to_be">
   <p>
-    To be, or not to be, that is the question:<br>
-    Whether 'tis nobler in the mind to suffer<br>
-    The slings and arrows of outrageous fortune,<br>
-    Or to take Arms against a Sea of troubles,<br>
-    And by opposing end them: to die, to sleep<br>
-    No more; and by a sleep, to say we end.
+    &ldquo;I walked a mile with Pleasure;<br>
+    She chatted all the way;<br>
+    But left me none the wiser<br>
+    For all she had to say.
+  </p>
+  <p>I walked a mile with Sorrow;<br>
+    And ne’er a word said she;<br>
+    But, oh! The things I learned from her,<br>
+    When Sorrow walked with me.&rdquo;
     </p>
 </blockquote>
 <hr>
