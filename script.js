@@ -11,9 +11,9 @@ var idioms = [
 var examples = [
 'Example: <i>Once in a blue moon you will see that mean professor smile.</i>', 
 
-'Example: <i>Your grandma was tickled pink that you called on her birthday!</i>.', 
+'Example: <i>Your grandma was tickled pink that you called on her birthday!</i>', 
 
-'Example: <i>He was caught red-handed while stealing those biscuits.</i>.',
+'Example: <i>He was caught red-handed while stealing those biscuits.</i>',
     
 'Example: <i>I didn’t like her dress, but I told a white lie because I didn’t want to offend her.</i>'
 ];
