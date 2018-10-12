@@ -2,7 +2,7 @@
 <h2>Images</h2>
 <p>You can reference images from other web hosts, or you can upload an image to your GitHub repository and reference that.<p>
 <p>First we will reference an image hosted on Wikipedia</p>
-<img src="https://commons.wikimedia.org/wiki/File:Europe_biogeography_countries.svg" alt="image of biogeography of Europe">
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/39/Europe_biogeography_countries.svg" alt="image of biogeography of Europe">
                                                                                           
 <hr>
 
