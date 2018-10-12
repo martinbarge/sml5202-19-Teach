@@ -3,7 +3,7 @@
 <p>You can reference images from other web hosts, or you can upload an image to your GitHub repository and reference that.<p>
 <p>First we will reference an image hosted on Wikipedia</p>
 <img src="https://upload.wikimedia.org/wikipedia/commons/3/39/Europe_biogeography_countries.svg" alt="image of biogeography of Europe">
-<p>The code for inserting images is: &lt;img src="URL OF IMAGE" alt="DESCRIPTION OF IMAGE" &gt;</p>
+<p>The code for inserting images is: <code>&lt;img src="URL OF IMAGE" alt="DESCRIPTION OF IMAGE" &gt;</code></p>
 <p>In the example above, the image src is https://upload.wikimedia.org/wikipedia/commons/3/39/Europe_biogeography_countries.svg </p>
 <p>You will notice that the image fills the width of the content area. This is okay for this exercise. Later we will look at how to modify the width settings of the image.</p>
 
@@ -19,7 +19,8 @@
   <dt>aside</dt>
   <dd>In drama, where a character shares a comment only with the audience for humorous or dramatic effect. This is usually a feeling, thought, or piece of additional background information.</dd>
 </dl>
-<p>The code for inserting description lists is similar to that for ordered and unordered lists. But it uses three tags: &lt;dl&gt; ... &lt;/dl&gt;</p>, which opens and closes the list. Then &lt;dt&gt;...&lt;/dt&gt;, which inserts the description term. Inside the dt tag you insert the description definition tag to provide the description: &lt;dd&gt;...&lt;/dd&gt;</p>
+<p>The code for inserting description lists is similar to that for ordered and unordered lists. But it uses three tags: <code>&lt;dl&gt; ... &lt;/dl&gt;</code>, which opens and closes the list. Then <code>&lt;dt&gt;...&lt;/dt&gt;</code>, which inserts the description term. Inside the dt tag you insert the description definition tag to provide the description: <code>&lt;dd&gt;...&lt;/dd&gt;</code></p>
+<p>To get the code for this, <a href="https://www.w3schools.com/tags/tag_dl.asp">visit the W3Schools entry for description lists</a>.</p>
 
 <hr>
 <h2>3. Tables</h2>
@@ -38,36 +39,21 @@
   </tr>
   </table>
   
+<p>The code for inserting tables is similar to that for description lists. But tables include three tags: <code>&lt;table&gt; ... &lt;/table&gt;</code>, which opens and closes the table. Then <code>&lt;tr&gt;...&lt;/tr&gt;</code>, which inserts a row into the table. Inside the <em>first</em> <b>tr</b> tag (i.e. The first table row) you insert the table header tag which will display the head for each column: <code>&lt;th&gt;...&lt;/th&gt;</code>. The humber of th tags you include determines the number of columns your table has.<br>
+  <b>For example:</b> To insert 2 columns your first row code is like this: <code>&lt;tr&gt;&lt;th&gt;FIRST COLUMN&lt;/th&gt;&lt;th&gt;SECOND COLUMN&lt;/th&gt;&lt;/tr&gt;</code></p>
+<p>Then insert another row using tr. Then to insert cells into the row you use the <b>td</b> tag, which means table data.<br>
+So, in our two column table, we would add: <code>&lt;tr&gt;&lt;td&gt;SECOND ROW COLUMN 1&lt;/td&gt;&lt;th&gt;SECOND ROW COLUMN 2&lt;/td&gt;&lt;/tr&gt;</code></p>
+<p>This may seem very complicated, so the best place to get the basic table code is, <a href="https://www.w3schools.com/tags/tag_table.asp">visit the W3Schools entry for tables</a>.</p>
 
 <hr>
 
-<h2>4. Block quotes</h2>
-<p>Using the blockquote tag places quoted text in a pleasingly formatted way. <b>Note:</b> If your quote is in verse form, you will need to use the &lt;br&gt; tag to break the lines.</p>
-<p>Here is an example of a verse of poetry in a block quote:</p>
-
-<blockquote cite="https://en.wikipedia.org/wiki/To_be,_or_not_to_be">
-  <p>Along the Road</p>
-  <p>
-    &ldquo;I walked a mile with Pleasure;<br>
-    She chatted all the way;<br>
-    But left me none the wiser<br>
-    For all she had to say.
-  </p>
-  <p>I walked a mile with Sorrow;<br>
-    And ne’er a word said she;<br>
-    But, oh! The things I learned from her,<br>
-    When Sorrow walked with me.&rdquo;
-    </p>
-  <p>-Robert Browning Hamilton</p>
-</blockquote>
+<h2>4. Superscript</h2>
+<p>Now for something easier. The superscript tag is useful for formatting the date.</p>
+<p><b>Example:</b> My birthday is on the 25<sup>th</sup> of May 2001.</p>
+<p>To make the 'th' a superscript (i.e. half the size of the numbers 25 and floating at the top of the 5), simply place <code>&lt;sup&gt; ... &lt;/sup&gt;</code> around the 'th'</p>
 <hr>
 
-<h2>5. Superscript</h2>
-<p>Useful for dates</p>
-<p>My birthday is on the 25<sup>th</sup> of May 2001.</p>
-<hr>
-
-<h2>6. Accented and Non-Latin Characters</h2>
+<h2>5. Accented and Non-Latin Characters</h2>
 <p>GitHub pages use the UTF-8 Character set. This means you can type accented letters directly into your page and it will display correctly</p>
 <p>Examples:</p>
 <ul>
@@ -76,8 +62,7 @@
     <li lang="zh-Hans">你好</li>
 </ul>
 <p>However, if you recall, in order for screen reading software to pronounce the words correctly, you need to add the &lt;lang="X"&gt; attribute to the tag, where X is the abbreviated language code.<br>
-  <b>For example:</b> In the list above, the tag for the Polish word is &lt;li lang="pl"&gt;, where pl is the abbreviated language code for Polish. The language code for the Russian word is "ru" and for the Chinese word "zh-Hans". A full listing of the language codes is provided on the <a href="https://www.w3schools.com/tags/ref_language_codes.asp">W3Schools Website</a>.
+  <b>For example:</b> In the list above, the tag for the Polish word is <code>&lt;li lang="pl"&gt;</code>, where pl is the abbreviated language code for Polish. The language code for the Russian word is "ru" and for the Chinese word "zh-Hans". A full listing of the language codes is provided on the <a href="https://www.w3schools.com/tags/ref_language_codes.asp">W3Schools Website</a>.
 </p>
-
 <hr>
 
