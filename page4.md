@@ -3,7 +3,10 @@
 <p>You can reference images from other web hosts, or you can upload an image to your GitHub repository and reference that.<p>
 <p>First we will reference an image hosted on Wikipedia</p>
 <img src="https://upload.wikimedia.org/wikipedia/commons/3/39/Europe_biogeography_countries.svg" alt="image of biogeography of Europe">
-                                                                                          
+<p>The code for inserting images is: &lt;img src="URL OF IMAGE" alt="DESCRIPTION OF IMAGE" &gt;</p>
+<p>In the example above, the image src is https://upload.wikimedia.org/wikipedia/commons/3/39/Europe_biogeography_countries.svg </p>
+<p>You will notice that the image fills the width of the content area. This is okay for this exercise. Later we will look at how to modify the width settings of the image.</p>
+
 <hr>
 
 <h2>2. Description lists</h2>
@@ -16,6 +19,7 @@
   <dt>aside</dt>
   <dd>In drama, where a character shares a comment only with the audience for humorous or dramatic effect. This is usually a feeling, thought, or piece of additional background information.</dd>
 </dl>
+<p>The code for inserting description lists is similar to that for ordered and unordered lists. But it uses three tags: &lt;dl&gt; ... &lt;/dl&gt;</p>, which opens and closes the list. Then &lt;dt&gt;...&lt;/dt&gt;, which inserts the description term. Inside the dt tag you insert the description definition tag to provide the description: &lt;dd&gt;...&lt;/dd&gt;</p>
 
 <hr>
 <h2>3. Tables</h2>
