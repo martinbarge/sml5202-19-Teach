@@ -1,5 +1,12 @@
 <h1>HTML Part 2: More text layouts</h1>
-<h2>1. Description lists</h2>
+<h2>Images</h2>
+<p>You can reference images from other web hosts, or you can upload an image to your GitHub repository and reference that.<p>
+<p>First we will reference an image hosted on Wikipedia</p>
+<img src="https://commons.wikimedia.org/wiki/File:Europe_biogeography_countries.svg" alt="image of biogeography of Europe>
+                                                                                          
+<hr>
+
+<h2>2. Description lists</h2>
 <p>Description lists are good for giving definitions</p>
 <dl>
   <dt>soliloquy</dt>
@@ -11,7 +18,7 @@
 </dl>
 
 <hr>
-<h2>2. Tables</h2>
+<h2>3. Tables</h2>
 <p>Tables are an orderly way to present information.</p>
 <p>Here is an example of a simple verb table:</p>
 <table>
@@ -30,7 +37,7 @@
 
 <hr>
 
-<h2>3. Block quotes</h2>
+<h2>4. Block quotes</h2>
 <p>Using the blockquote tag places quoted text in a pleasingly formatted way. <b>Note:</b> If your quote is in verse form, you will need to use the &lt;br&gt; tag to break the lines.</p>
 <p>Here is an example of a verse of poetry in a block quote:</p>
 
@@ -51,12 +58,12 @@
 </blockquote>
 <hr>
 
-<h2>4. Superscript</h2>
+<h2>5. Superscript</h2>
 <p>Useful for dates</p>
 <p>My birthday is on the 25<sup>th</sup> of May 2001.</p>
 <hr>
 
-<h2>5. Accented and Non-Latin Characters</h2>
+<h2>6. Accented and Non-Latin Characters</h2>
 <p>GitHub pages use the UTF-8 Character set. This means you can type accented letters directly into your page and it will display correctly</p>
 <p>Examples:</p>
 <ul>
