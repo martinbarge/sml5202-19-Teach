@@ -39,11 +39,13 @@
   </tr>
   </table>
   
-<p>The code for inserting tables is similar to that for description lists. But tables include three tags: <code>&lt;table&gt; ... &lt;/table&gt;</code>, which opens and closes the table. Then <code>&lt;tr&gt;...&lt;/tr&gt;</code>, which inserts a row into the table. Inside the <em>first</em> <b>tr</b> tag (i.e. The first table row) you insert the table header tag which will display the head for each column: <code>&lt;th&gt;...&lt;/th&gt;</code>. The humber of th tags you include determines the number of columns your table has.<br>
-  <b>For example:</b> To insert 2 columns your first row code is like this: <code>&lt;tr&gt;&lt;th&gt;FIRST COLUMN&lt;/th&gt;&lt;th&gt;SECOND COLUMN&lt;/th&gt;&lt;/tr&gt;</code></p>
-<p>Then insert another row using tr. Then to insert cells into the row you use the <b>td</b> tag, which means table data.<br>
-So, in our two column table, we would add: <code>&lt;tr&gt;&lt;td&gt;SECOND ROW COLUMN 1&lt;/td&gt;&lt;th&gt;SECOND ROW COLUMN 2&lt;/td&gt;&lt;/tr&gt;</code></p>
-<p>This may seem very complicated, so the best place to get the basic table code is, <a href="https://www.w3schools.com/tags/tag_table.asp">visit the W3Schools entry for tables</a>.</p>
+<p>The code for inserting tables is similar to that for description lists. But tables include three tags: <code>&lt;table&gt; ... &lt;/table&gt;</code>, which opens and closes the table. Then <code>&lt;tr&gt;...&lt;/tr&gt;</code>, which inserts a row into the table. Inside the <em>first</em> <b>tr</b> tag (i.e. The first table row) you insert the table header tag which will display the head for each column: <code>&lt;th&gt;...&lt;/th&gt;</code>. The humber of th tags you include determines the number of columns your table has.</p>
+  
+<p><b>For example:</b> In the first two columns of the table above, the first row code is like this: <code>&lt;tr&gt;&lt;th&gt;Infinitive&lt;/th&gt;&lt;th&gt;Past simple&lt;/th&gt;&lt;/tr&gt;</code></p>
+<p>To insert another row, use <code>&lt;tr&gt;</code>.<br>
+Then, insert cells into the row using the <code>&lt;td&gt;</code> tag, which means <b>table data</b>.<br>
+So, in our two column table above, we would add: <code>&lt;tr&gt;&lt;td&gt;to go&lt;/td&gt;&lt;th&gt;went&lt;/td&gt;&lt;/tr&gt;</code></p>
+<p>This may seem very complicated, so the best place to get the basic table code is, <a href="https://www.w3schools.com/tags/tag_table.asp">visit the W3Schools entry for tables</a>. Copy the code there and experiment.</p>
 
 <hr>
 
