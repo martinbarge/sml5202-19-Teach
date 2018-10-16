@@ -8,21 +8,37 @@ $header-bg-color-secondary: #104e2f !default;
 
 
 @import "{{ site.theme }}";
+/*import google font */
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
+/* change height of page header */
 .page-header {
 	padding: 3rem 6rem;
 }
 
+/*set font for site */
 body {
     font-family: 'Roboto', sans-serif;
 }
-	
+
+/* change font colour of heading tags */
 .main-content h1, .main-content h2, .main-content h3, .main-content h4 {
    color: #54062a;
 }
 
+/* change font colour for paragraphs tags */
 p {
 color: black;	
 }
+
+/*image text wrap CSS */
+.imgLeft {
+  float:left;
+  margin: 0 10px 10px 0;
+}
+
+.clearLeft {
+   clear:left;
+}
+
 
