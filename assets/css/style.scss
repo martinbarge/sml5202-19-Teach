@@ -8,11 +8,16 @@ $header-bg-color-secondary: #104e2f !default;
 
 
 @import "{{ site.theme }}";
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
 .page-header {
 	padding: 3rem 6rem;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
+	
 .main-content h1, .main-content h2, .main-content h3, .main-content h4 {
    color: #54062a;
 }
