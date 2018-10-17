@@ -1,20 +1,21 @@
 ---
 ---
 
-// Headers
-$header-heading-color: #fff !default;
-$header-bg-color: #5785b3 !default;
-$header-bg-color-secondary: #104e2f !default;
-
-
 @import "{{ site.theme }}";
+
 /*import google font */
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 /* change height of page header */
+
 .page-header {
-	padding: 3rem 6rem;
+    padding: 3rem 6rem;
+    color: #fff;
+    text-align: center;
+    background-color: #5785b3;
+    background-image: linear-gradient(120deg, #1f2962, #aa57b3);
 }
+
 
 /*set font for site */
 body {
