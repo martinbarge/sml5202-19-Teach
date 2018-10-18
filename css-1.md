@@ -73,18 +73,9 @@ So, to centre the image we need:<br>
 <p>A very useful application of CSS is text formatting.</p>
 <p>For example, in a language learning website, we might need to set certain classes of words to different colours in order to hightlight textual features for our learners. The following example shows a paragraph with the nouns highlighted in green and the adjectives in purple:</p>
 
-<style>
-  #noun {color:#00802b;}
-  #adj {color: #4d0099;}
-</style>
-<p><span style=";">SEASON</span> of mists and mellow fruitfulness!<br>	 
-  Close bosom-friend of the maturing sun;	 
-Conspiring with him how to load and bless	 
-  With fruit the vines that round the thatch-eaves run;	 
-To bend with apples the moss'd cottage-trees,	         5
-  And fill all fruit with ripeness to the core;	 
-    To swell the gourd, and plump the hazel shells	 
-  With a sweet kernel; to set budding more,	 
-And still more, later flowers for the bees,	 
-Until they think warm days will never cease,	  10
-  For Summer has o'er-brimm'd their clammy cells.</p>
+
+<p><span id="noun">SEASON</span> of <span id="noun">mists</span> and mellow <span id="noun">fruitfulness</span>!<br>	 
+  <span id="adj">Close</span> <span id="noun">bosom-friend</span> of the maturing <span id="noun">sun</span>;<br> 
+Conspiring with him how to load and bless<br>
+  With <span id="noun">fruit</span> the <span id="noun">vines</span> that round the <span id="noun">thatch-eaves</span> run; 
+</p>
