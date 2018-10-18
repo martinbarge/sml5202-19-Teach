@@ -53,7 +53,7 @@
 <p>To centre the image, it's necessary to make a small calculation. In our example, this is as follows:</p>
 
 
-<p style="margin-left:20%; margin-right:20%; padding:.3rem; background-color:lightGray;">
+<p style="margin-left:1rem; margin-right:1rem; padding:.3rem; background-color:#f6f8fc;">
 page content width = 100%<br>
 image width = 70%<br>
 remaining content width = 30%<br>
