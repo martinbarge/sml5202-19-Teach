@@ -69,3 +69,22 @@ So, to centre the image we need:<br>
 &lt;img style="width:70%; border:1px solid green; margin-left:15%;" src="https://upload.wikimedia.org/wikipedia/commons/3/39/Europe_biogeography_countries.svg" alt="image of biogeography of Europe" &gt;
 </code>
 
+<h2>3. Formating Text with CSS</h2>
+<p>A very useful application of CSS is text formatting.</p>
+<p>For example, in a language learning website, we might need to set certain classes of words to different colours in order to hightlight textual features for our learners. The following example shows a paragraph with the nouns highlighted in green and the adjectives in purple:</p>
+
+<style>
+  #noun {color:#00802b;}
+  #adj {color: #4d0099;}
+</style>
+<p><span style=";">SEASON</span> of mists and mellow fruitfulness!<br>	 
+  Close bosom-friend of the maturing sun;	 
+Conspiring with him how to load and bless	 
+  With fruit the vines that round the thatch-eaves run;	 
+To bend with apples the moss'd cottage-trees,	         5
+  And fill all fruit with ripeness to the core;	 
+    To swell the gourd, and plump the hazel shells	 
+  With a sweet kernel; to set budding more,	 
+And still more, later flowers for the bees,	 
+Until they think warm days will never cease,	  10
+  For Summer has o'er-brimm'd their clammy cells.</p>
