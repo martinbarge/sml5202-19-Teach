@@ -42,9 +42,7 @@
 <img style="width:70%; border:1px solid green;" src="https://upload.wikimedia.org/wikipedia/commons/3/39/Europe_biogeography_countries.svg" alt="image of biogeography of Europe"></a>
 </p>
 
-<p>
+<p>This time, the image is centred.</p>
 <a href="https://upload.wikimedia.org/wikipedia/commons/3/39/Europe_biogeography_countries.svg" title="View Image Source">
-<img style="width:70%; border:1px solid green; vertical-align: top;" src="https://upload.wikimedia.org/wikipedia/commons/3/39/Europe_biogeography_countries.svg" alt="image of biogeography of Europe"></a>
-  Here is some text about the image. You can see that it is positioned to the right of the image and begins at the top edge.<br>This gives a neat appearance and is a good way to position an image within a paragraph of text.
-</p>
+<img style="width:70%; border:1px solid green; margin-left:15%;" src="https://upload.wikimedia.org/wikipedia/commons/3/39/Europe_biogeography_countries.svg" alt="image of biogeography of Europe"></a>
 
