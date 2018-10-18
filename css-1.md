@@ -53,7 +53,7 @@
 <p>To centre the image, it's necessary to make a small calculation. In our example, this is as follows:</p>
 
 
-<p style="margin-left:1rem; margin-right:1rem; padding:.3rem; background-color:#f6f8fc;">
+<p style="margin-left:1rem; padding:.5rem; background-color:#f6f8fc; font-family: courier;">
 page content width = 100%<br>
 image width = 70%<br>
 remaining content width = 30%<br>
@@ -66,6 +66,6 @@ So, to centre the image we need:<br>
 <p>The <code> margin-left </code> property specifies a distance of x between the left-hand edge of the image and the left-hand edge of the  content area - just like a margin on a paper page.</p> 
 <p>So, here is the modified image style code:</p>
 <code> 
-&lt;img style="width:70%; border:1px solid green; margin-left:15%" src="https://upload.wikimedia.org/wikipedia/commons/3/39/Europe_biogeography_countries.svg" alt="image of biogeography of Europe" &gt;
+&lt;img style="width:70%; border:1px solid green; margin-left:15%;" src="https://upload.wikimedia.org/wikipedia/commons/3/39/Europe_biogeography_countries.svg" alt="image of biogeography of Europe" &gt;
 </code>
 
