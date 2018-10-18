@@ -53,16 +53,13 @@
 <p>To centre the image, it's necessary to make a small calculation. In our example, this is as follows:</p>
 
 
-```
+<p style="margin-left:20%; margin-right:20%; padding:.3rem; background-color:lightGray;">
 page content width = 100%
 image width = 70%
 remaining content width = 30%
--->
-to centre image we need:
-
+So,to centre image we need:
 15% + 70% + 15% = 100%
-
-```
+</p>
 <p>In our image, we specified the width to be 70%. This means the image uses 70% of the 100% content area available. By default, the image is positioned to the left of the content area. This means that to right of the image, 30% of the page width is blank. So, to centre the image, we need to put a space of 15% to the left of the image.</p> 
   
 <p>To do this, we use a style property known as <code> margin-left </code> with a value of 15% (half of the blank space).</p>
