@@ -34,10 +34,10 @@
 <p>We can add other properties and values to our style entry. For example: <code> style="width:70%; border:1px solid green; </code>. Adding the 'border' property specifies a border around the image. In this example, the border property is followed by 3 values: <code> 1px solid green </code>. This means the border will be a solid green line, one pixel thick.</p>
 <p>So the full code for our image tag would now look like this:</p>
 <code> 
-&lt;img class="imgLeft" style="width:70%; border:1px solid green;" src="https://upload.wikimedia.org/wikipedia/commons/3/39/Europe_biogeography_countries.svg" alt="image of biogeography of Europe" &gt;
+&lt;img style="width:70%; border:1px solid green;" src="https://upload.wikimedia.org/wikipedia/commons/3/39/Europe_biogeography_countries.svg" alt="image of biogeography of Europe" &gt;
 </code>
 <p>And the result is this:</p>
 <a href="https://upload.wikimedia.org/wikipedia/commons/3/39/Europe_biogeography_countries.svg" title="View Image Source">
-<img class="imgLeft" style="width:70%; border:1px solid green;" src="https://upload.wikimedia.org/wikipedia/commons/3/39/Europe_biogeography_countries.svg" alt="image of biogeography of Europe"></a>
+<img style="width:70%; border:1px solid green;" src="https://upload.wikimedia.org/wikipedia/commons/3/39/Europe_biogeography_countries.svg" alt="image of biogeography of Europe"></a>
 <p>&nbsp;</p>
 
