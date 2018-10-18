@@ -3,9 +3,10 @@ title: The title of your site
 description: A short description of your site's purpose
 github:
   page1: html-1.html
-  page2: html-2.html
-  page3: js-random.html
-  page4: js-fileread-1.html
-  page5: js-fileread-2.html
-  page6: recipe.html
+  page2: recipe.html
+  page3: html-2.html
+  page4: js-random.html
+  page5: js-fileread-1.html
+  page6: js-fileread-2.html
+ 
     
