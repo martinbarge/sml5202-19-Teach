@@ -57,7 +57,7 @@
 page content width = 100%<br>
 image width = 70%<br>
 remaining content width = 30%<br>
-So,to centre image we need:<br>
+So, to centre the image we need:<br>
 15% + 70% + 15% = 100%
 </p>
 <p>In our image, we specified the width to be 70%. This means the image uses 70% of the 100% content area available. By default, the image is positioned to the left of the content area. This means that to right of the image, 30% of the page width is blank. So, to centre the image, we need to put a space of 15% to the left of the image.</p> 
