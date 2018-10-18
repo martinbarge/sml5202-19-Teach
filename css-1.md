@@ -11,7 +11,8 @@
 <p>Ths code for this is:</p>
 <code>
 &lt;a href="https://upload.wikimedia.org/wikipedia/commons/3/39/Europe_biogeography_countries.svg" title="View Image Source"&gt;
-<br>
+  
+  
 &lt;img  src="https://upload.wikimedia.org/wikipedia/commons/3/39/Europe_biogeography_countries.svg" alt="image of biogeography of Europe"&gt;
   &lt;/a&gt;
 </code>
