@@ -48,7 +48,7 @@
 </p>
 
 <h3>2.2: Centering an image on the page.</h3>
-<p style="margin-left=15%;">This time, the image is centred.</p>
+<p style="margin-left:15%;">This time, the image is centred.</p>
 <a href="https://upload.wikimedia.org/wikipedia/commons/3/39/Europe_biogeography_countries.svg" title="View Image Source">
 <img style="width:70%; border:1px solid green; margin-left:15%;" src="https://upload.wikimedia.org/wikipedia/commons/3/39/Europe_biogeography_countries.svg" alt="image of biogeography of Europe"></a>
 <p>To centre the image, it's necessary to make a small calculation. In our example, this is as follows:</p>
