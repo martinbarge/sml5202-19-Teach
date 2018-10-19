@@ -26,7 +26,8 @@
 <li>Finally, we must close the <code> &lt;/a&gt; </code> tag.</li>
 </ol>
 
-<h2>2. Changing the size of the image on the page.</h2>
+<h2>2. Changing the size and position of images.</h2>
+<h3>2.1: Changing the display size of images.</h3>
 <p>Sometimes we might want our image to occupy less space on the page. This can be done by adding a style attribute to the tag.</p>
 <p>Here is an example of a simple style attribute added to the image tag that specifies the image to occupy only 70% of the width of the page content area: <code> style="width:70%; </code>.</p>
 
@@ -46,8 +47,8 @@
 <img style="width:70%; border:1px solid green;" src="https://upload.wikimedia.org/wikipedia/commons/3/39/Europe_biogeography_countries.svg" alt="image of biogeography of Europe"></a>
 </p>
 
-<h3>Centering the image on the page.</h3>
-<p>This time, the image is centred.</p>
+<h3>2.2: Centering an image on the page.</h3>
+<p style="margin-left=15%;">This time, the image is centred.</p>
 <a href="https://upload.wikimedia.org/wikipedia/commons/3/39/Europe_biogeography_countries.svg" title="View Image Source">
 <img style="width:70%; border:1px solid green; margin-left:15%;" src="https://upload.wikimedia.org/wikipedia/commons/3/39/Europe_biogeography_countries.svg" alt="image of biogeography of Europe"></a>
 <p>To centre the image, it's necessary to make a small calculation. In our example, this is as follows:</p>
