@@ -72,10 +72,11 @@ So, to centre the image we need:<br>
 <h2>3. Formating Text with CSS</h2>
 <p>A very useful application of CSS is text formatting.</p>
 <p>For example, in a language learning website, we might need to set certain classes of words to different colours in order to hightlight textual features for our learners. The following example shows a paragraph with the nouns highlighted in green and the adjectives in purple:</p>
-
-
+<h4>Ode to Autumn, by John Keats</h4>
 <p><span id="noun">SEASON</span> of <span id="noun">mists</span> and <span id="adj">mellow</span> <span id="noun">fruitfulness</span>!<br>	 
-  <span id="adj">Close</span> <span id="noun">bosom-friend</span> of the maturing <span id="noun">sun</span>;<br> 
+<span id="adj">Close</span> <span id="noun">bosom-friend</span> of the maturing <span id="noun">sun</span>;<br> 
 Conspiring with him how to load and bless<br>
-  With <span id="noun">fruit</span> the <span id="noun">vines</span> that round the <span id="noun">thatch-eaves</span> run; 
+  With <span id="noun">fruit</span> the <span id="noun">vines</span> that round the <span id="noun">thatch-eaves</span> run;
 </p>
+
+<p>To format words and phrases within a paragraph, you can use the familiar &lt;strong&gt; and &lt;em&gt; tags. However, if you want to apply other styles, such as colours, then we use the <code> &lt;span styel=""&gt; </code> tag. The span tag combined with style property will modify whatever the tag surroungs. So in the example above, to set the word 'SEASON' to green, the tag looks like this: <code> &lt;span style="color:#00cc00;"&gt; SEASON &lt;/span&gt; </code>. </p>
