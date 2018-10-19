@@ -54,17 +54,20 @@
 <p>To centre the image, it's necessary to make a small calculation. In our example, this is as follows:</p>
 
 
-<p style="margin-left:1rem; padding:.8rem; background-color:#f6f8fc; font-family: courier;">
-page content width = 100% <br>
+<div style="margin-left:1rem; padding:.8rem; background-color:#f6f8fc; font-family: courier;">
+<p>page content width = 100% <br>
 image width = 70% <br>
-&#8756; remaining content width = 30% <br>
-To centre the image we need to divide the remaining content width so that it is equal on both sides of the image: <br>
-So, 30% &#247; 2 = 15% <br>
-So we now know we need a space of 15% to the left and right of the image. Numerically, it looks like this:<br>
+  &#8756; remaining content width = 30% </p>
+
+<p>So, to centre the image we need to divide the remaining content width (30%) so that it is equal on both sides of the image: <br>
+We know that 30% &#247; 2 = 15% </p>
+<p>So we now know we need a space of 15% to the left and 15% to the right of the image.<br> 
+Numerically, it looks like this:<br>
 left-hand margin width = 15%; <br>
 image width = 70% <br>
 right-hand margin width = 15%
 </p>
+</div>
 
 <p>In our image, we specified the width to be 70%. This means the image uses 70% of the 100% content area available. By default, the image is positioned to the left of the content area. This means that to right of the image, 30% of the page width is blank. So, to centre the image, we need to put a space of 15% to the left of the image.</p> 
   
@@ -74,6 +77,10 @@ right-hand margin width = 15%
 <code> 
 &lt;img style="width:70%; border:1px solid green; margin-left:15%;" src="https://upload.wikimedia.org/wikipedia/commons/3/39/Europe_biogeography_countries.svg" alt="image of biogeography of Europe" &gt;
 </code>
+
+<p>Note: in the above example we don't need to specify a margin-right:15% because this is automatically computed by the browser. The browser computes the specified values of 15% + 70% = 85%, and then assigns the remaining 15% to the right-hand margin.</p>
+
+<p>Understanding the way the page width can be divided in this way enables us to position objects on our pages, including blocks of text.</p>
 
 <h2>3. Formating Text with CSS</h2>
 <p>A very useful application of CSS is text formatting.</p>
