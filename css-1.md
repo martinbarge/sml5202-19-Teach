@@ -79,4 +79,4 @@ Conspiring with him how to load and bless<br>
   With <span id="noun">fruit</span> the <span id="noun">vines</span> that round the <span id="noun">thatch-eaves</span> run;
 </p>
 
-<p>To format words and phrases within a paragraph, you can use the familiar &lt;strong&gt; and &lt;em&gt; tags. However, if you want to apply other styles, such as colours, then we use the <code> &lt;span styel=""&gt; </code> tag. The span tag combined with style property will modify whatever the tag surroungs. So in the example above, to set the word 'SEASON' to green, the tag looks like this: <code> &lt;span style="color:#00cc00;"&gt; SEASON &lt;/span&gt; </code>. </p>
+<p>To format words and phrases within a paragraph, you can use the familiar &lt;strong&gt; and &lt;em&gt; tags. However, if you want to apply other styles, such as colours, then we use the <code> &lt;span style=""&gt; </code> tag. The span tag combined with style property will modify whatever the tag surroungs. So in the example above, to set the word 'SEASON' to green, the tag looks like this: <code> &lt;span style="color:#00cc00;"&gt; SEASON &lt;/span&gt; </code>. </p>
