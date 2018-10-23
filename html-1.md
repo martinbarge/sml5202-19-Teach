@@ -66,4 +66,10 @@
 <p>When you have finished, post the link to your github website on your QMplus Hub Journal.</p>
 <p>Good luck!</p>
 <hr>
+<p>
+
+<a style="float:left;" href="index.html">Back to Videos</a>
+<a style="float:right;" href="html-2.html">Continue to exercise 2</a>
+</p>
+<div style="clear:both;"></div>
 
