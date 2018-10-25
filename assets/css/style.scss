@@ -27,6 +27,15 @@ body {
    color: #54062a;
 }
 
+.codeblock {
+  font-size:1.1em; 
+  padding: 2px 4px 2px 4px;
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  color: #567482;
+  background-color: #f3f6fa;
+  border-radius: 0.3rem;
+}
+
 /* change font colour for paragraphs tags */
 p {
 color: black;	
