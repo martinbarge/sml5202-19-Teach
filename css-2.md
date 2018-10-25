@@ -41,7 +41,7 @@ The map to the left shows the biogeography of Europe. Biogeography is the study 
 <p>The first thing we need to do is set up the external stylesheet. An external stylesheet is simply a file containing the style rules you want your site to use. On a GitHub pages site, we have to create two new directories and the file, like this:</p>
 <ol>
   <li>In your site code repository add a new file: assets/css/style.scss</li>
-  <li></li>
+  <li>Insert the following lines exactly as shown to the top of the style.scss file: <img src="assets/img/scss-file-1.png"></li>
 </ol>
   
 
