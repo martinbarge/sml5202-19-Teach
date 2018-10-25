@@ -1,9 +1,9 @@
 <h1>HTML and CSS Part 2</h1>
 <h2>1. Using an external stylesheet</h2>
 <p>We now know we can insert style rules into HTML tags, using the <code> style="" </code> attribute.</p>
-<p>However, a more efficient way to accomplish this is by using an external stylesheet. Using an external stylesheet enables us to specify a set of style rules that we can then apply within our HTML tags. The following is a brief outline of how this works:</p>
-<p>OUTLINE</p>
+<p>However, a more efficient way to accomplish this is by using an external stylesheet. Using an external stylesheet enables us to specify a set of style rules that we can then apply within our HTML tags. This tutorial shows you how to do this.</p>
 
+<h2>Review</h2>
 <p>You remember from previous practice, that we can insert an image into our page, like this:</p>
 <img src="https://upload.wikimedia.org/wikipedia/commons/3/39/Europe_biogeography_countries.svg" alt="image of biogeography of Europe">
 </p>
@@ -14,11 +14,11 @@
 &lt;img  src="https://upload.wikimedia.org/wikipedia/commons/3/39/Europe_biogeography_countries.svg" alt="image of biogeography of Europe"&gt;
 </code>
 <p>And we have seen that by inserting a style rule into the tag, we can manipulate the position of the image, like this:</p> 
-<img style="width:50%; border:1px solid green;" src="https://upload.wikimedia.org/wikipedia/commons/3/39/Europe_biogeography_countries.svg" alt="image of biogeography of Europe"></a>
+<img style="width:70%; border:1px solid green;" src="https://upload.wikimedia.org/wikipedia/commons/3/39/Europe_biogeography_countries.svg" alt="image of biogeography of Europe">
 
 <p>The style rule for this is:</p>
 <code> 
-&lt;img style="width:50%; border:1px solid green;" src="https://upload.wikimedia.org/wikipedia/commons/3/39/Europe_biogeography_countries.svg" alt="image of biogeography of Europe" &gt;
+&lt;img style="width:70%; border:1px solid green;" src="https://upload.wikimedia.org/wikipedia/commons/3/39/Europe_biogeography_countries.svg" alt="image of biogeography of Europe" &gt;
 </code>
 
 <p>Now we are going to see how to wrap text alongside the image, which is a good way to place an image within a paragraph of text. Here is the above image with text wrapped to the right.</p>
@@ -31,13 +31,14 @@ The map to the left shows the biogeography of Europe. Biogeography is the study 
 
 <p>The style rule for the above now looks like this:</p>
 <code> 
-&lt;img style="width:50%; border:1px solid green; float:left; margin: 0 10px 10px 0;" src="https://upload.wikimedia.org/wikipedia/commons/3/39/Europe_biogeography_countries.svg" alt="image of biogeography of Europe" &gt;
+&lt;img style="width:70%; border:1px solid green; float:left; margin: 0 10px 10px 0;" src="https://upload.wikimedia.org/wikipedia/commons/3/39/Europe_biogeography_countries.svg" alt="image of biogeography of Europe" &gt;
 </code>
 <p>As you can see, the style rule is becoming quite long and complex. This makes it more difficult to read, to detect errors, and is time-consuming to include in every image on your website that you wish to apply the style to.</p>
 <p>So this where an external style sheet proves indispensible.</p>
 
 
 <h2>Adding external style sheets.</h2>
+<h3>Setting up the style sheet and creating a rule</h3>
 <p>The first thing we need to do is set up the external stylesheet. An external stylesheet is simply a file containing the style rules you want your site to use. On a GitHub pages site, we have to create two new directories and the file, like this:</p>
 <ol>
   <li>In your site code repository add a new file: assets/css/style.scss</li>
@@ -67,7 +68,7 @@ The map to the left shows the biogeography of Europe. Biogeography is the study 
   &lt;p&gt;
   
   
-&lt;img style="width:50%; border:1px solid green; float:left; margin: 0 10px 10px 0;" src="https://upload.wikimedia.org/wikipedia/commons/3/39/Europe_biogeography_countries.svg" alt="image of biogeography of Europe" &gt;
+&lt;img class="imgLeft" src="https://upload.wikimedia.org/wikipedia/commons/3/39/Europe_biogeography_countries.svg" alt="image of biogeography of Europe" &gt;
   
   
 My paragraph of text goes here. After the image tag, but before the closing p tag.
@@ -76,11 +77,20 @@ My paragraph of text goes here. After the image tag, but before the closing p ta
   </p>
   
   <p>Notice in the above that I have put a &lt;p&gt; tag before the image tag, and a &lt;/p&gt; tag after the paragraph of text.</p>
-  <p>Finally, in my example image in this page, I have changed the style rule so that the image is 50% wide, which gives the text an equal (50%) space next to the image.</p>
+  <h3>A final tweak</h3>
+  <p>Finally, in my example image in this page, I originally set the image width to 70%. But I now want the text to have equal space next to the image, so I have changed the style width to 50%, so that the image is 50% wide, which gives the text an equal (50%) space next to the image. Here is the result:</p>
+  
+  <p>
+<img class="imgLeft" src="https://upload.wikimedia.org/wikipedia/commons/3/39/Europe_biogeography_countries.svg" alt="image of biogeography of Europe">
+The map to the left shows the biogeography of Europe. Biogeography is the study of the distribution of species and ecosystems in geographic space and through geological time. Organisms and biological communities often vary in a regular fashion along geographic gradients of latitude, elevation, isolation and habitat area. Phytogeography is the branch of biogeography that studies the distribution of plants. Zoogeography is the branch that studies distribution of animals. Source: <a href="https://en.wikipedia.org/wiki/Biogeography">Wikipedia</a>
+
+</p>
+
+  
   
   <h2>Homework</h2>
   <p>If you haven't already created the style sheet and modified the image, please follow this tutorial and do so.</p>
-  <p>If you have created the style sheet and formatted your image, then please modify the style rule in the style.scss file and set the image width to 50%.</p>
+  <p>If you have already created the style sheet and formatted your image, then please modify the style rule in your style.scss file and set the image width to 50%.</p>
   <p>Then, go to the W3Schools website and check the following tutorials on using CSS</p>
 <ol>
   <li><a href="https://www.w3schools.com/css/css_syntax.asp">CSS Syntax</a></li>
