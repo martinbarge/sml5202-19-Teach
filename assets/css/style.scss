@@ -36,7 +36,9 @@ color: black;
 .imgLeft {
   float:left;
   margin: 0 10px 10px 0;
-  vertical-align: top;
+  width:50%; 
+  vertical-align:top; 
+  border:1px solid #021a40;
 }
 
 .clearLeft {
