@@ -42,6 +42,7 @@ The map to the left shows the biogeography of Europe. Biogeography is the study 
 <ol>
   <li>In your site code repository add a new file: assets/css/style.scss</li>
   <li>Insert the following lines exactly as shown to the top of the style.scss file: <img src="assets/img/scss-file-1.png"></li>
+  <li>Next, add the following code below the lines shown in the image above: <img src="assets/img/imgleft-code.png"></li>
 </ol>
   
 
