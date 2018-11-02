@@ -1,3 +1,24 @@
+<script>
+<!--
+
+//Bread crumb script - Kevin Lynn Brown
+//Duplicate directory names bug fix by JavaScriptKit.com
+//Visit JavaScript Kit (http://javascriptkit.com) for script
+
+var path = "";
+var href = document.location.href;
+var s = href.split("/");
+for (var i=2;i<(s.length-1);i++) {
+path+="<A HREF=\""+href.substring(0,href.indexOf("/"+s[i])+s[i].length+1)+"/\">"+s[i]+"</A> / ";
+}
+i=s.length-1;
+path+="<A HREF=\""+href.substring(0,href.indexOf(s[i])+s[i].length)+"\">"+s[i]+"</A>";
+var url = window.location.protocol + "//" + path;
+document.writeln(url);
+//-->
+</script>
+
+<p align="left">This free script provided by <a href="http://javascriptkit.com">JavaScript Kit</a></p>
 <h1>HTML Part 2: More text layouts</h1>
 <h2>Images</h2>
 <p>You can reference images from other web hosts, or you can upload an image to your GitHub repository and reference that.<p>
