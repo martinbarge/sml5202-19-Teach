@@ -1,3 +1,12 @@
+
+<div id="breadcrumb"></div>
+<ul id="navigation_links">
+    <li><a href="page1.html">Page 1</a></li>
+    <li><a href="page2.html">Page 2</a></li>
+    <li><a href="page3.html">Page 3</a></li>
+    <li><a href="page4.html">Page 4</a></li>
+</ul>
+
 <script>
   $(document).ready(function(){
     bindEventToNavigation();
@@ -28,13 +37,6 @@ function breadcrumbStateSaver(link, text) {
   
   </script>
 
-<div id="breadcrumb"></div>
-<ul id="navigation_links">
-    <li><a href="page1.html">Page 1</a></li>
-    <li><a href="page2.html">Page 2</a></li>
-    <li><a href="page3.html">Page 3</a></li>
-    <li><a href="page4.html">Page 4</a></li>
-</ul>
 
 <h1>Section 1:</h1>
 <h2>Introduction to HTML</h2>
