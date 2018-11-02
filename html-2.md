@@ -8,7 +8,7 @@
 var path = "";
 var href = document.location.href;
 var s = href.split("/");
-for (var i=2;i<(s.length-1);i++) {
+for (var i=3;i<(s.length-1);i++) {
 path+="<a href=\""+href.substring(0,href.indexOf("/"+s[i])+s[i].length+1)+"/\">"+s[i]+"</a> / ";
 }
 i=s.length-1;
