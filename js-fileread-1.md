@@ -42,3 +42,13 @@ document.getElementById("demo1").innerHTML = myLine;
 </script>
 
 
+<iframe src="https://www.translate.com/" width="100%" height="340px">
+  <p>Your browser does not support iframes.</p>
+</iframe>
+
+
+
+<iframe src="https://translate.google.com/?sl=en&tl=pl" width="100%" height="340px">
+  <p>Your browser does not support iframes.</p>
+</iframe>
+
