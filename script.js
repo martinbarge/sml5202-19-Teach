@@ -21,6 +21,6 @@ var examples = [
 function loadQuote() {
     var idiomNo = Math.floor(Math.random() * (idioms.length));
     //alert(quotes[quoteNo]);
-    document.querySelector("#quote").innerHTML = "<dt>" + idioms[idiomNo] + "</dt>" + "<dd>" + examples[idiomNo] + "</dd>"
+    document.getElementById("quote").innerHTML = "<dt>" + idioms[idiomNo] + "</dt>" + "<dd>" + examples[idiomNo] + "</dd>"
 }
 loadQuote();
