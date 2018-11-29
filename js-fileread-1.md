@@ -1,54 +1,23 @@
-<h1><i>Testing:</i> &nbsp;  function loadFile()</h1>
-<p><i>Reading from&nbsp;</i> <tt><b>test.txt</b></tt></p>
-<div id="demo">&nbsp;</div>
-<div id="demo1">&nbsp;</div>
+<div id="demo">
+<h2>The XMLHttpRequest Object</h2>
+<button type="button" onclick="loadDoc()">Change Content</button>
+</div>
 
 <script>
-
-// Synchronously read a text file from the web server with Ajax
-//
-// The filePath is relative to the web page folder.
-// Example:   myStuff = loadFile("Chuuk_data.txt");
-//
-// You can also pass a full URL, like http://sealevel.info/Chuuk1_data.json, but there
-// might be Access-Control-Allow-Origin issues. I found it works okay in Firefox, Edge,
-// or Opera, and works in IE 11 if the server is configured properly, but in Chrome it only
-// works if the domains exactly match (and note that "xyz.com" & "www.xyz.com" don't match).
-// Otherwise Chrome reports an error:
-//
-//   No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'http://sealevel.info' is therefore not allowed access.
-//
-// That happens even when "Access-Control-Allow-Origin *" is configured in .htaccess,
-// and even though I verified the headers returned (you can use a header-checker site like
-// http://www.webconfs.com/http-header-check.php to check it). I think it's a Chrome bug.
-
-function loadFile(filePath) {
-  var result = null;
-  var xmlhttp = new XMLHttpRequest();
-  xmlhttp.open("GET", filePath, false);
-  xmlhttp.send();
-  if (xmlhttp.status==200) {
-    result = xmlhttp.responseText;
-  }    
-  return result;
+function loadDoc() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+   
+      var str = this.responseText;
+      var res = str.split(" ");
+      alert(res);
+      document.getElementById("demo").innerHTML = res;
+      
+      
+      }
+  };
+  xhttp.open("GET", "test.txt", true);
+  xhttp.send();
 }
-
-var myStuff = loadFile("test.txt");
-document.getElementById("demo").innerHTML = myStuff; 
-
-
-document.getElementById("demo1").innerHTML = myLine; 
-
 </script>
-
-
-<iframe src="https://www.translate.com/" width="100%" height="340px">
-  <p>Your browser does not support iframes.</p>
-</iframe>
-
-
-
-<iframe src="https://translate.google.com/?sl=en&tl=pl" width="100%" height="340px">
-  <p>Your browser does not support iframes.</p>
-</iframe>
-
