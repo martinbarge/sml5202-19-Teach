@@ -8,10 +8,9 @@ function loadDoc() {
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
-   
       var str = this.responseText;
-      var res = str.split(" ");
-      alert(res);
+      //var res = str.split(" ");
+     // alert(res);
       document.getElementById("demo").innerHTML = res;
       
       
