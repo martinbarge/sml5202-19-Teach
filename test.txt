@@ -1,6 +1,1 @@
-One of the nice things that we get for free when using async event handling
-is the ability to monitor the progress of the file read; 
-useful for large files, catching errors, and figuring out when a read is complete.
-The onloadstart and onprogress events can be used to monitor the progress of a read.
-The example below demonstrates displaying a progress bar to monitor the status of a read. 
-To see the progress indicator in action, try a large file or one from a remote drive.
+JavaScript (/ˈdʒɑːvəˌskrɪpt/), often abbreviated as JS, is a high-level, interpreted programming language. It is a language which is also characterized as dynamic, weakly typed, prototype-based and multi-paradigm. Alongside HTML and CSS, JavaScript is one of the three core technologies of the World Wide Web. JavaScript enables interactive web pages and thus is an essential part of web applications. The vast majority of websites use it, and all major web browsers have a dedicated JavaScript engine to execute it.
