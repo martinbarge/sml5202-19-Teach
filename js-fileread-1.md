@@ -4,7 +4,7 @@
 </div>
 
 <script>
-var texts["test.txt"];  
+var texts = ["test.txt"];  
   
 function loadDoc() {
   var xhttp = new XMLHttpRequest();
