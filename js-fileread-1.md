@@ -11,7 +11,7 @@ function loadDoc() {
       var str = this.responseText;
       //var res = str.split(" ");
      // alert(res);
-      document.getElementById("demo").innerHTML = res;
+      document.getElementById("demo").innerHTML = str;
       
       
       }
