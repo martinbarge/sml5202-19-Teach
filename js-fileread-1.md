@@ -4,6 +4,8 @@
 </div>
 
 <script>
+var texts["test.txt"];  
+  
 function loadDoc() {
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
@@ -12,11 +14,9 @@ function loadDoc() {
       //var res = str.split(" ");
      // alert(res);
       document.getElementById("demo").innerHTML = str;
-      
-      
       }
   };
-  xhttp.open("GET", "test.txt", true);
+  xhttp.open("GET", texts[0], true);
   xhttp.send();
 }
 </script>
