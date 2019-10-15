@@ -19,7 +19,6 @@ document.writeln(res);
 //-->
 </script>
 
-<p align="left">This free script provided by <a href="http://javascriptkit.com">JavaScript Kit</a></p>
 <h1>HTML Part 2: More text layouts</h1>
 <h2>Images</h2>
 <p>You can reference images from other web hosts, or you can upload an image to your GitHub repository and reference that.<p>
