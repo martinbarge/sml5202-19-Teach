@@ -14,7 +14,7 @@ path+="<a href=\""+href.substring(0,href.indexOf("/"+s[i])+s[i].length+1)+"/\">"
 i=s.length-1;
 path+="<a href=\""+href.substring(0,href.indexOf(s[i])+s[i].length)+"\">"+s[i]+"</a>";
 var url = window.location.protocol + "//" + path;
-var res = url.replace("https://", "home");
+var res = url.replace("https://", "");
 document.writeln(res);
 //-->
 </script>
