@@ -1,3 +1,4 @@
+<script>
 //Breadcrumbs based on URL location
 if ($('#siteBreadcrumb ol.breadcrumb')) {
   var here = location.href.replace(/(\?.*)$/, '').split('/').slice(3);
@@ -19,7 +20,7 @@ if ($('#siteBreadcrumb ol.breadcrumb')) {
     });
   }
 }
-
+</script>
 <style>
   html{
   font-size:100%;
